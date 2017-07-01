@@ -1,0 +1,338 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+.container
+{
+	background-image: url("backimage.png");
+background-size: cover;
+	height: 700px;
+	text-align: center;
+}
+.container header
+{
+	    background: #EC0856;
+    color: #FFF;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 22px;
+    margin-left: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    line-height: 58px;
+    margin-bottom: 10px;
+    border: 2px solid #EC0856;
+    text-align: center;
+    width: 140px;
+    position: absolute;
+    right: 20px;
+
+}
+.container img
+{
+	vertical-align: middle;
+	align-content: center;
+	    margin-top: 15%;
+	    
+	   border-radius: 50%;
+
+}
+.container h1
+{
+	    font-size: 50px;
+    color: #fff;
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    }
+ .container h2
+ {
+ 	font-size: 29px;
+    color: #fff;
+    text-align: center;
+        font-family: Roboto,Helvetica,Arial,sans-serif!important
+ }
+ .container p
+ {
+ 	font-size: 18px;
+    padding-top: 18px;
+    color: rgba(255,255,255,.649);
+    line-height: 1.287;
+    text-align: center;        
+    font-family: Roboto,Helvetica,Arial,sans-serif!important
+ }
+
+
+
+.aboutme
+{
+	background-color: white;
+	height: 700px;
+	text-align: center;
+}
+
+.aboutme h1
+{
+
+    padding-top: 20px;
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.aboutme p
+{
+	    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.ui
+{
+height: 500px;
+display: flex;
+flex-direction: row;
+}
+
+.ui div
+{
+	width: 500px;
+	border-color: red;
+}
+
+.ui p
+{
+	    font-size: 17px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+
+
+.skills h1
+{
+	text-align: center;
+	   font-size: 75px;
+    font-weight: 100;
+    margin-bottom: 20px;
+        margin-top: 20px;
+    color: #fff;
+font-family: 'Indie Flower', cursive;
+}
+
+.skillsflex
+{
+		height: 520px;
+		display: flex;
+		flex-direction: row;
+}
+.rightskillsflex
+{
+	width: 750px;
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+}
+
+.leftskillsflex
+{
+	width: 750px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .skills
+ {
+	background-image: url("skillsback2.jpg");
+background-size: cover;
+	height: 650px;
+}
+
+
+
+
+.connect
+
+{
+	height: 230px;
+	background-color: #ec0856;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+
+.socl2
+{
+    padding-top: 80px;
+    height: 100px;
+	vertical-align: middle;
+	    border: 0;
+    align-items: center;
+
+}
+
+.connect h1
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    padding-left: 50px;
+
+      padding-top: 100px;
+      padding-right: 500px;
+      padding-bottom: 
+        font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.skillbar {
+    position:relative;
+    display:block;
+    margin-bottom:15px;
+    width: 50%;
+    background:#eee;
+    height:35px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, background-color;
+}
+
+.skillbar-title {
+    position:absolute;
+    top:0;
+    left:0;
+width:110px;
+    font-weight:bold;
+    font-size:13px;
+    color:#ffffff;
+    background:#6adcfa;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-bottom-left-radius:4px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+    display:block;
+    background:rgba(0, 0, 0, 0.1);
+    padding:0 20px;
+    height:35px;
+    line-height:35px;
+    -webkit-border-top-left-radius:3px;
+    -webkit-border-bottom-left-radius:3px;
+    -moz-border-radius-topleft:3px;
+    -moz-border-radius-bottomleft:3px;
+    border-top-left-radius:3px;
+    border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+    height:35px;
+    width:0px;
+    background:#6adcfa;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+    position:absolute;
+    right:10px;
+    top:0;
+    font-size:11px;
+    height:35px;
+    line-height:35px;
+    color:#ffffff;
+    color:rgba(0, 0, 0, 0.4);
+}
+
+
+.allskillbars
+{
+    padding-left: 250px;
+}
